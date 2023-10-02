@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        var otp=Math.floor(Math.random()*999999)
+        alert(otp)
+        function otp_verify(){
+            var user_otp=document.getElementById("otp").value 
+            if(otp==user_otp){
+                window.location.href="./updatePwd.html"
+            }
+            else{
+            document.getElementById("error1").innerHTML="Incorrect OTP"
+            document.getElementById("error1").style.color="red"
+            }
+
+        }
+        function resend_otp(){
+            window.location.href="./OTP.html"
+        }
+    </script>
+</head>
+<body>
+
+    <center>
+
+        <div>
+            <label > Enter 6 Digit OTP </label>
+            <br>
+            <input type="text" name="" placeholder="" id="otp">
+            <br>
+            <p><button class="Verify_button"  onclick="otp_verify()">VERIFY</button></p>
+            <p id="error1"></p>
+        </div>
+       
+
+            <label for=""> Do you want to send OTP again?</label>
+                  <br>
+            <button class="Resend_button" onclick="resend_otp()">Resend  OTP</button>
+
+    </center>
+</body>
+</html>

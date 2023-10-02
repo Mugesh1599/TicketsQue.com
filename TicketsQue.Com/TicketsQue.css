@@ -1,0 +1,167 @@
+
+body{
+    flex-direction:row;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+
+#label1{
+    color: red;
+}
+
+#label2{
+    color: purple;
+    font-size: larger;
+}
+#label3{
+    font-weight: 300;
+}
+#label4{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    color: rgb(21, 99, 75);
+}
+#label5{
+    text-align: center;
+}
+#contact{
+    text-align: right;
+}
+#email{
+    text-align: right;
+}
+#field{
+    background-color: rgb(213, 230, 236);
+
+}
+#imp{
+    color: red;
+    font-weight: 400;
+}
+#great{
+    font-size: large;
+}
+#label6{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 500;
+    color: rgb(21, 99, 75);
+}
+#coupon1{
+    color: purple;
+    font-weight: 500;
+    font-size: large;
+}
+#coupon2{
+    color: purple;
+    font-weight: 500;
+    font-size: large;
+}
+#book{
+    width: fit-content;
+    height: 45px;
+
+}
+#ticket{
+    font-size: small;
+}
+#refund{
+    color: orangered;
+    font-size: large;
+}
+#ticket1{
+    font-size: small;
+}
+#proceed{
+    color:white;
+    background-color: orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-width: 0px;
+    padding-top: 10px;
+}
+#cancel{
+    color: orangered;
+}
+#seat{
+    width: fit-content;
+    background-color:blanchedalmond;
+}
+#proceed1{
+    color:white;
+    background-color: orangered;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border-width: 0px;
+    text-decoration: none;
+}
+#proceed2{
+    text-decoration: none;
+}
+#field1{
+    width: min-content;
+    align-self: center;
+    background-color: rgb(253, 230, 195);
+}
+#field2{
+    width: fit-content;
+    background-color :rgb(253, 230, 195);
+}    
+#field3{
+    width: fit-content;
+    background-color :rgb(253, 230, 195);
+}
+#field4{
+    width: fit-content;
+    background-color :rgb(253, 230, 195);
+}
+#field5{
+    width: fit-content;
+    background-color :rgb(253, 230, 195);
+}
+#field6{
+    width: fit-content;
+    background-color :rgb(253, 230, 195);
+}
+.select{
+    text-decoration: none;
+}
+.field01{
+    text-decoration: none;
+    color: black;
+    background-color: rgb(247, 241, 241);
+    border-width: 1px;
+}
+#new{
+    text-decoration: none;
+    background-color: black;
+}
+#up{
+   
+    color:orangered;
+    text-align: right;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    padding-right: 80px;
+}
+#sign01{
+    text-decoration: none;
+}
+#or{
+    padding-left: 1278px;
+    margin-top: -37px;
+}
+#in{
+   
+    color:orangered;
+    text-align: right;
+    font-weight: 600;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 17px;
+    padding-right: 13px;
+    margin-top: -37px;
+}
+#login01{
+    text-decoration: none;
+    
+}
